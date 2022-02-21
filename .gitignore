@@ -1,0 +1,22 @@
+# Never commit credentials!
+/credentials/do_not_commit.cfg
+
+# IDE data_source
+.idea
+
+# Ressources arent commited
+res
+
+# Ignore merge-conflict artifacts
+*.orig
+*.py~master
+
+*.pkl
+
+*.pyc
+
+*.png
+*.pdf
+
+*.pt
+*.zip
