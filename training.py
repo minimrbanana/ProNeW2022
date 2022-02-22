@@ -60,11 +60,11 @@ m4_settings = {
     'Hourly': {'window_size': 24, 'fft_compression': 2, 'context_timespan': int(20 * 24),
                'prediction_timespan': int(2 * 24), 'timespan_step': int(.5 * 24)},  # 700 Min Context
     'Daily': {'window_size': 14, 'fft_compression': 2, 'context_timespan': int(5 * 14),
-              'prediction_timespan': int(1 * 14), 'timespan_step': int(.5 * 14)},
+              'prediction_timespan': int(1 * 14), 'timespan_step': int(.5 * 14)},  # 93 Min Context
     'Weekly': {'window_size': 14, 'fft_compression': 2, 'context_timespan': int(4.5 * 14),
-               'prediction_timespan': int(14), 'timespan_step': int(.5 * 14)},  # 80 Min Context, normal. predict 13
+               'prediction_timespan': int(14), 'timespan_step': int(.5 * 14)},  # 80 Min Context
     'Monthly': {'window_size': 18, 'fft_compression': 1, 'context_timespan': int(6 * 18),
-                'prediction_timespan': int(1 * 18), 'timespan_step': int(.5 * 18)},
+                'prediction_timespan': int(1 * 18), 'timespan_step': int(.5 * 18)},  # 42 Min Context
     'Quarterly': {'window_size': 8, 'fft_compression': 1, 'context_timespan': int(4 * 8),
                   'prediction_timespan': int(1 * 8), 'timespan_step': int(.5 * 8)},  # 16 Min Context
     'Yearly': {'window_size': 6, 'fft_compression': 1, 'context_timespan': int(4 * 6),
