@@ -1,7 +1,11 @@
-# ProNeW
+# Predictive Whittle Networks
 
-Probabilistic Neural Whittle Forecaster (ProNeW)
+Predictive Whittle Networks (PWN)
 
 ## Execution
 
-To run an experiment on the power dataset, just execute ``training.py`` with no arguments.
+To run an experiment on the data set Power, execute
+
+    training.py
+
+with no arguments.
